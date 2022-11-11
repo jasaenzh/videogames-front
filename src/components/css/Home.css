@@ -1,0 +1,116 @@
+.flexHome {
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+    margin: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.4);
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.tituloHome {
+    padding: none;
+    height: none;
+    font-size: 50px;
+}
+
+.divBotonesHome {
+    border-radius: 1rem;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.filtrosHome {
+    padding: 8px;
+    margin-top: 0.5rem;
+    border-radius: 1.5rem;
+    color: rgb(58, 56, 69);
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.titulosFiltos {
+    font-size: 18px;
+}
+
+.cajaCards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.cajaCards a:link {
+    text-decoration: none;
+}
+
+.cajaCardsDiv {
+    width: 30%;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-image: linear-gradient(#B2B2B2, #3C4048);
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 3rem;
+    color: rgb(58, 56, 69);
+}
+
+.cajaCardsDiv a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#imagenCard {
+    max-width: 90%;
+    max-height: 60%;
+    margin-top: 30px;
+    border-radius: 2rem;
+}
+
+#nameCard {
+    color: white;
+    text-shadow: 0px 1px 2px #00ABB3;
+    width: 80%;
+    margin: 10px;
+}
+
+.textGenreCards {
+    color: white;
+    text-shadow: 0px 1px 2px #00ABB3;
+}
+
+#generoCard {
+    width: 80%;
+    margin: 10px;
+}
+
+#plaformsCard {
+    width: 80%;
+    margin: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+.cajaBuscarVideoJuego {
+    width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#botonPaginado {
+    height: 5%;
+    width: 5%;
+}
+
+.currentPages {
+    background-color: #3C4048;
+}
