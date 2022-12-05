@@ -170,7 +170,7 @@ export default function Home() {
                     </div>
 
                     <div>
-                        <h4 className="titulosFiltos"> Raiting </h4>
+                        <h4 className="titulosFiltos"> Rating </h4>
                         {/* Aca filtro por orden */}
                         <select className="cajaIngrDatosLabelEInputSelect" onChange={event => filterObrderByRaiting(event)}>
                             <option value='vacioRaiting'> -- </option>
