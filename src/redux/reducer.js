@@ -112,7 +112,7 @@ const rootReducer = (state = initialState, action) => {
             return {
 
                 ...state,
-                videogames: obrderByAscDesc.slice(0, 5)
+                videogames: obrderByAscDesc
 
             }
 
